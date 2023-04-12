@@ -1,0 +1,16 @@
+πως αφηνεις κενο σε κουτα στην css
+
+ margin-left: 2px;
+
+
+
+
+ nav li{
+    background-color:pink;
+    width: 100px;
+    height:40px;
+    margin-left: 2px;
+    text-align: center;
+    line-height:40px;
+    fLoat:left;
+}

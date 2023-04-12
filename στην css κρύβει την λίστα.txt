@@ -1,0 +1,6 @@
+στην css κρύβει την λίστα 
+
+nal ul ul
+{
+    visiblity:hidden;
+}

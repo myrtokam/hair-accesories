@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="menu.css" type="text/css">
+</head>
+<style>*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    margin-top: 10px;
+    margin-left:50px;
+}
+nav ul{
+    list-style: none;
+      
+}
+nav li{
+    background-color:pink;
+    width: 100px;
+    height:40px;
+    margin-left: 2px;
+    text-align: center;
+    line-height:40px;
+    fLoat:left;
+}
+nav ul li a{
+    color: black;
+    text-decoration:none;
+    background-color: palevioletred;
+    width:100px;
+    height: 40px;
+    display:block; 
+}
+
+nav ul li a:hover{
+background-color: pink;
+color:rgb(79, 75, 79);
+}
+
+nav ul ul{
+    visibility: hidden;
+}
+nav ul li:hover ul li{
+    visibility: visible;
+}
+
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">services</a>
+            <ul>
+                <li><a href="#">design</a></li>
+                <li><a href="#"> sales</a></li>
+                <li><a href="#"> development</a></li>
+            </ul>
+            </li>
+            <li><a href="#">contact us</a></li>
+
+        </ul>
+    </nav>
+</body>
+</html>

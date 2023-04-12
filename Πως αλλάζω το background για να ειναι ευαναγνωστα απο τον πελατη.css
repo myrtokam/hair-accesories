@@ -1,0 +1,19 @@
+Πως αλλάζω το background για να ειναι ευαναγνωστα απο τον πελατη
+
+nav li{
+    background-color:pink;
+    width: 100px;
+    height:40px;
+    margin-top: 2px;
+    text-align: center;
+    line-height:40px;
+}
+nav ul li a{
+    color: black;
+    text-decoration:none;
+    background-color: palevioletred;
+    width:100px;
+    height: 40px;
+    display:block;
+     
+}

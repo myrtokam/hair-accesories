@@ -1,0 +1,15 @@
+πως αυξάνω το υψος της σειράς ώστε να ειναι το κειμενο στο κέντρο του κουτιου
+nav li{
+    
+    line-height:40px;
+}
+
+///////////////////
+nav li{
+    background-color:pink;
+    width: 100px;
+    height:40px;
+    margin-top: 2px;
+    text-align: center;
+    line-height:40px;
+}
